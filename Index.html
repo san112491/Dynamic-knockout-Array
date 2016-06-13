@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="San Anand" />
+    <script src="~/ViewModels/ViewModel.js"></script>
+    <script src="~/Scripts/knockout-3.2.0.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+</head>
+<body>
+
+        <div data-bind="foreach: defineDataItems">//loop through observable array and display strings in a single div
+                <div id="knockout" data-bind="">//main div
+                    <p id="item1"><span data-bind="text:item1"></span></p>
+                    <div id="item2" class="var"><span data-bind="text:item2"></span></div>
+                    <div id="item3" class="var"><span data-bind="text:item3"></span></div>
+                    <div id="item4" class="var"><span data-bind="text:item4"></span></div>
+                    <div id="item5" class="var"><span data-bind="text:item5"></span></div>
+                </div>
+            </a>
+        </div>
+
+</body>
+</html>
