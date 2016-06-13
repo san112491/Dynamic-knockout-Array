@@ -31,6 +31,6 @@ function DataModel(item) {
 	this.item3 = ko.observable(item.item3),
 	this.item4 = ko.observable(item.item4),
 	this.item5 = ko.observable(item.item5),
-    this.item6 = ko.observable(item.item6)
+    	this.item6 = ko.observable(item.item6)
 
 };
